@@ -4,17 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YachtJet</title>
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <a href="#" class="logo">yachtjet</a>
-      <nav class="menu">
+      <a href="#" class="header-logo">yachtjet</a>
+      <nav class="menu-nav">
         <ul>
-          <li><a href="#" class="link">About</a></li>
-          <li><a href="#" class="link">Yachts</a></li>
-          <li><a href="#" class="link">Reviews</a></li>
+          <li><a href="#" class="menu-nav-link">About</a></li>
+          <li><a href="#" class="menu-nav-link">Yachts</a></li>
+          <li><a href="#" class="menu-nav-link">Reviews</a></li>
         </ul>
       </nav>
       <ul class="social-item">
@@ -58,7 +64,7 @@
           enjoyable. Book now and get ready for an unforgettable adventure on
           the high seas.
         </p>
-        <img src="" alt="yaht-night" class="yacht-fleet-img" />
+        <img src="./img/Photo1.png" alt="yaht-night" class="yacht-fleet-img" />
       </section>
       <!-- CHOOSE YOUR DREAM SECTION -->
       <section class="yachts">
@@ -67,9 +73,10 @@
         </h2>
         <ul class="yacht-list">
           <li class="yacht-item">
-            <img src="" alt="" class="yacht-img" />
+            <img src="./img/card1.jpg" alt="Arrow" class="yacht-img" />
             <h3 class="yacht-title">
-              Arrow <span class="yacht-text-value">LUXURY YAHTS</span>
+              Arrow
+              <span class="yacht-text-value">LUXURY YAHTS</span>
             </h3>
             <p class="yacht-text">
               LENGTH <span class="yacht-text-value">48m(155ft)</span>
@@ -88,9 +95,9 @@
             </p>
           </li>
           <li class="yacht-item">
-            <img src="" alt="" class="yacht-img" />
+            <img src="./img/card2.jpg" alt="BENETTI OASIS" class="yacht-img" />
             <h3 class="yacht-title">
-              BENETTI OASIS 40M BO122
+              BENETTI OASIS
               <span class="yacht-text-value">LUXURY YAHTS</span>
             </h3>
             <p class="yacht-text">
@@ -110,7 +117,7 @@
             </p>
           </li>
           <li class="yacht-item">
-            <img src="" alt="" class="yacht-img" />
+            <img src="./img/card3.jpg" alt="BELLE ANNA" class="yacht-img" />
             <h3 class="yacht-title">
               BELLE ANNA <span class="yacht-text-value">LUXURY YAHTS</span>
             </h3>
@@ -161,12 +168,12 @@
             </p>
           </li>
         </ul>
-        <img src="" alt="yaht-night" class="benefits-img" />
+        <img src="./img/photo2.jpg" alt="yaht-night" class="benefits-img" />
       </section>
       <!-- FORM SECTION -->
       <section id="form" class="rent">
         <h2 class="rent-title">Rent a yacht now</h2>
-        <img src="" alt="yaht-night" class="rent-img" />
+        <img src="./img/photo3.jpg" alt="yaht-night" class="rent-img" />
         <form action="" class="rent-form"></form>
         <button type="submit">Send</button>
       </section>
@@ -183,7 +190,7 @@
         </p>
         <ul class="reviews-list">
           <li class="reviews-item">
-            <img src="" alt="John Wax" class="reviews-img" />
+            <img src="./img/avatar1.jpg" alt="John Wax" class="reviews-img" />
             <h3 class="reviwes-title">John Wax</h3>
             <p class="reviews-text">
               I rented the Lagoon 620 with my family for a week-long vacation
@@ -192,7 +199,11 @@
             </p>
           </li>
           <li class="reviews-item">
-            <img src="" alt="Victoria Romashenko" class="reviews-img" />
+            <img
+              src="./img/avatar2.jpg"
+              alt="Victoria Romashenko"
+              class="reviews-img"
+            />
             <h3 class="reviwes-title">Victoria Romashenko</h3>
             <p class="reviews-text">
               The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -201,7 +212,11 @@
             </p>
           </li>
           <li class="reviews-item">
-            <img src="" alt="Ihor Trachuk" class="reviews-img" />
+            <img
+              src="./img/avatar3.jpg"
+              alt="Ihor Trachuk"
+              class="reviews-img"
+            />
             <h3 class="reviwes-title">Ihor Trachuk</h3>
             <p class="reviews-text">
               The Azimut 80 was the most luxurious yacht I've ever been on. The
@@ -215,10 +230,12 @@
     <footer>
       <a href="#" class="logo">yachtjet</a>
       <nav class="menu">
+        <a href="#" class="header-logo">yachtjet</a>
+      <nav class="menu-nav">
         <ul>
-          <li><a href="#" class="link">About</a></li>
-          <li><a href="#" class="link">Yachts</a></li>
-          <li><a href="#" class="link">Reviews</a></li>
+          <li><a href="#" class="menu-nav-link">About</a></li>
+          <li><a href="#" class="menu-nav-link">Yachts</a></li>
+          <li><a href="#" class="menu-nav-link">Reviews</a></li>
         </ul>
       </nav>
       <ul class="social-item">
@@ -232,6 +249,12 @@
           <a href="#" class="social-link"><img src="" alt="FaceBook" /></a>
         </li>
       </ul>
+      <p class="footer-title">
+        No matter which yacht you choose, our experienced crew will ensure that
+        your journey is smooth and enjoyable.
+      </p>
+      <p class="footer-text">2023. Yacht Adventures</p>
+      <a href="#" class="footer-link">Privacy Police</a>
     </footer>
   </body>
 </html>
