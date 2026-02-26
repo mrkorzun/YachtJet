@@ -56,11 +56,16 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 32px;
+  padding: 4px 0;
+
+  border-radius: 8px;
+  border: 1px solid #fbfbfb;
+  background-color: var(--main-color);
 }
 
 .figure-header {
   justify-content: space-between;
-  background-color: var(--main-color);
 }
 
 .menu-logo {
@@ -69,6 +74,7 @@ img {
   font-size: 20px;
   letter-spacing: -0.03em;
   color: var(--green-color);
+  padding-left: 30px;
 }
 
 .menu-nav-list {
@@ -159,4 +165,47 @@ img {
 /* ====== FLEEET ======== */
 
 .fleet-container {
+  border-radius: 24px;
+  background-color: var(--main-color);
 }
+
+.fleet-title {
+  width: 537px;
+
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--green-color);
+
+  line-height: 1;
+}
+
+.fleet-container p {
+  width: 409px;
+}
+
+.fleet-text-first {
+  color: var(--green-color);
+  font-weight: 400;
+  font-size: 23px;
+
+  line-height: 1;
+}
+
+.fleet-text-second {
+  color: var(--dark-color);
+  font-weight: 400;
+  font-size: 13px;
+
+  line-height: 1.15;
+}
+
+.fleet-img {
+  margin-top: 100px;
+}
+
+/*   --font-family: "Inter", sans-serif;
+  --main-color: #fbfbfb;
+  --green-color: #1b414b;
+  --grey-color: #0e1823;
+  --dark-color: #040306;
+  --nav-color: rgba(27, 65, 75, 0.5); */
