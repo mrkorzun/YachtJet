@@ -165,8 +165,22 @@ img {
 /* ====== FLEEET ======== */
 
 .fleet-container {
-  border-radius: 24px;
+  width: 1340px;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-radius: 26px;
   background-color: var(--main-color);
+}
+
+.fleet-wraper {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .fleet-title {
@@ -174,33 +188,37 @@ img {
 
   font-size: 48px;
   font-weight: 500;
-  color: var(--green-color);
 
   line-height: 1;
+
+  color: var(--green-color);
 }
 
-.fleet-container p {
+.fleet-text-container {
   width: 409px;
+  display: flex;
+  flex-direction: column;
 }
 
 .fleet-text-first {
-  color: var(--green-color);
+  margin-bottom: 20px;
+
   font-weight: 400;
   font-size: 23px;
 
   line-height: 1;
+
+  color: var(--green-color);
 }
 
 .fleet-text-second {
-  color: var(--dark-color);
+  margin-bottom: 100px;
   font-weight: 400;
   font-size: 13px;
 
   line-height: 1.15;
-}
 
-.fleet-img {
-  margin-top: 100px;
+  color: rgba(4, 3, 6, 0.4);
 }
 
 /*   --font-family: "Inter", sans-serif;
@@ -208,4 +226,48 @@ img {
   --green-color: #1b414b;
   --grey-color: #0e1823;
   --dark-color: #040306;
-  --nav-color: rgba(27, 65, 75, 0.5); */
+  --nav-color: rgba(27, 65, 75, 0.5); 
+  
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+  background-color: var(--grey-color);
+  
+  */
+
+/* ====== CHOOSE YOUR DREAM SECTION ======== */
+
+.yachts {
+  padding: 150px 0;
+}
+
+.yachts-container {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.yacht-title {
+  width: 714px;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 500px;
+  font-size: 40px;
+
+  line-height: 1;
+  text-align: center;
+
+  color: #fbfbfb;
+}
+
+.yacht-list {
+  display: flex;
+  gap: 32px;
+}
+
+.yacht-list-item {
+  flex-basis: calc((100% - 64) / 3);
+}
