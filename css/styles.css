@@ -269,5 +269,5 @@ img {
 }
 
 .yacht-list-item {
-  flex-basis: calc((100% - 64) / 3);
+  flex-basis: calc((100% - 64px) / 3);
 }
