@@ -102,8 +102,21 @@ img {
 }
 
 /* ====== HERO SECTION ====== */
+.hero {
+  padding-top: 155px;
+  padding-bottom: 180px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .hero-title {
+  width: 1001px;
+  margin-bottom: 24px;
+
   font-weight: 500;
   font-size: 80px;
   line-height: 1;
@@ -111,6 +124,9 @@ img {
 }
 
 .hero-text {
+  width: 597px;
+  margin-bottom: 48px;
+
   font-weight: 300;
   font-size: 16px;
   line-height: 1.4;
@@ -119,14 +135,28 @@ img {
 }
 
 .hero-link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.1;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: #1b414b;
+  min-width: 179px;
+  height: 52px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+
+  background-color: var(--green-color);
   border-radius: 15px;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--green-color);
+  background-color: var(--main-color);
+}
+
+/* ====== FLEEET ======== */
+
+.fleet-container {
 }
