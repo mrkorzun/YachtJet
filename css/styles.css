@@ -43,10 +43,22 @@ img {
   height: auto;
 }
 
+.container {
+  width: 1390px;
+  padding: 0 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ====== HEDER ====== */
 
-.figure-header {
+.header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.figure-header {
   justify-content: space-between;
   background-color: var(--main-color);
 }
@@ -84,8 +96,9 @@ img {
   background-color: var(--green-color);
 }
 
-.social-item {
+.social {
   display: flex;
+  gap: 13px;
 }
 
 /* ====== HERO SECTION ====== */
